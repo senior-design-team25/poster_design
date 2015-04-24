@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.25)  24 APR 2015 04:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.25)  24 APR 2015 09:55
 entering extended mode
 **conference_poster_5.tex
 
@@ -495,18 +495,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--160
 File: figures/imu_plot2.jpg Graphic file (type jpg)
 
 <use figures/imu_plot2.jpg>
-Package pdftex.def Info: figures/imu_plot2.jpg used on input line 161.
-(pdftex.def)             Requested size: 572.63547pt x 432.11142pt.
+Package pdftex.def Info: figures/imu_plot2.jpg used on input line 166.
+(pdftex.def)             Requested size: 409.02711pt x 308.65236pt.
 
-<figures/car_sim.png, id=10, 1443.14156pt x 724.20563pt>
+<figures/reaction_plot.png, id=10, 602.25pt x 372.39125pt>
+File: figures/reaction_plot.png Graphic file (type png)
+
+<use figures/reaction_plot.png>
+Package pdftex.def Info: figures/reaction_plot.png used on input line 166.
+(pdftex.def)             Requested size: 662.47704pt x 409.63164pt.
+
+Overfull \hbox (185.06439pt too wide) in paragraph at lines 166--166
+[]  
+ []
+
+File: figures/imu_plot2.jpg Graphic file (type jpg)
+<use figures/imu_plot2.jpg>
+Package pdftex.def Info: figures/imu_plot2.jpg used on input line 166.
+(pdftex.def)             Requested size: 409.02711pt x 308.65236pt.
+File: figures/reaction_plot.png Graphic file (type png)
+ <use figures/reaction_plot.png>
+Package pdftex.def Info: figures/reaction_plot.png used on input line 166.
+(pdftex.def)             Requested size: 662.47704pt x 409.63164pt.
+
+Overfull \hbox (27.10283pt too wide) in paragraph at lines 166--166
+|[] 
+ []
+
+
+Overfull \hbox (280.55275pt too wide) in paragraph at lines 166--166
+[]  
+ []
+
+
+Overfull \vbox (56.10004pt too high) detected at line 166
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 166
+[] | []
+ []
+
+<figures/car_sim.png, id=11, 786.68906pt x 347.79938pt>
 File: figures/car_sim.png Graphic file (type png)
 
 <use figures/car_sim.png>
-Package pdftex.def Info: figures/car_sim.png used on input line 164.
-(pdftex.def)             Requested size: 972.07635pt x 487.81212pt.
+Package pdftex.def Info: figures/car_sim.png used on input line 170.
+(pdftex.def)             Requested size: 972.07635pt x 429.79143pt.
 
-Overfull \hbox (36.135pt too wide) in paragraph at lines 164--165
-[][] 
+Overfull \hbox (36.135pt too wide) in paragraph at lines 170--172
+[][]
  []
 
 [1
@@ -524,24 +562,26 @@ _design/conference_poster_5/figures/FPGA_Sim1.png> <C:/Users/splee_000/Document
 s/senior_design/poster_design/conference_poster_5/figures/UART-CAN_PacketTransl
 ation.png> <C:/Users/splee_000/Documents/senior_design/poster_design/conference
 _poster_5/figures/imu_plot2.jpg> <C:/Users/splee_000/Documents/senior_design/po
-ster_design/conference_poster_5/figures/car_sim.png>]
+ster_design/conference_poster_5/figures/reaction_plot.png> <C:/Users/splee_000/
+Documents/senior_design/poster_design/conference_poster_5/figures/car_sim.png>]
+
 (C:\Users\splee_000\Documents\senior_design\poster_design\conference_poster_5\c
 onference_poster_5.aux) ) 
 Here is how much of TeX's memory you used:
- 4659 strings out of 493921
- 69872 string characters out of 3144864
- 152712 words of memory out of 3000000
- 7879 multiletter control sequences out of 15000+200000
+ 4664 strings out of 493921
+ 70008 string characters out of 3144864
+ 155712 words of memory out of 3000000
+ 7883 multiletter control sequences out of 15000+200000
  19223 words of font info for 47 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,9n,38p,772b,551s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,9n,38p,864b,893s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fon
 tname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on conference_poster_5.pdf (1 page, 377031 bytes).
+Output written on conference_poster_5.pdf (1 page, 445364 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
+ 35 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

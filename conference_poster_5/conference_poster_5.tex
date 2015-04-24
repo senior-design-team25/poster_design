@@ -89,7 +89,7 @@
 -
 \section*{Abstract}
 \large{
-Our research project is focused on highlighting security concerns in augmented and autonomous vehicles. We have developed and built a robotics testbed and simulator on which we can measure and apply real-world data. We primarily focus on the two coupled weak points in augmented automotive cybersecurity: wireless transceiver entry points into an unsecured Controller Area Network (CAN).}
+Our research project is focused on highlighting security concerns in augmented and autonomous vehicles. We have developed and built a robotics testbed and simulator on which we can measure and apply real-world data. We primarily focus on the two coupled weak points in augmented automotive cybersecurity: wireless transceiver entry points into an unsecured Controller Area Network (CAN) and the encryption/authentication of this wireless network.}
 
 \hfill\includegraphics[scale=0.001]{mohit}
 
@@ -158,19 +158,26 @@ We will focus on modular specific system testing and timing constraints collecte
 \\
 %\bf{Figure 2. } Hardware CAN Bus Capture
 
-\centerline{\includegraphics[scale=0.7]{imu_plot2}}
-
+\begin{vwcol}[widths={0.4,0.6}]
+\includegraphics[scale=0.5]{imu_plot2}
+%\includegraphics[scale=0.4]{fpga_synth_canexpand}
+%\hspace{1em}\includegraphics[scale=0.5]{FPGA_Sim1}
+\includegraphics[scale=1.1]{reaction_plot}
+\end{vwcol}
+%\centerline{\includegraphics[scale=0.7]{imu_plot2}}
+\vspace{3em}
 
 \includegraphics[width=1\linewidth]{car_sim}
+\vspace{2em}
 
 
 %	RESULTS 
 %----------------------------------------------------------------------------------------
 
 \section*{Results}
-Software encryption was shown to be extremely slow, taking upwards of 8.9 seconds to scramble data using a simple cipher. In addition during wireless transmission, using an ad-hoc (typically used for long term secure channels) took several seconds on average to connect. This would not be a feasible communication method at high speeds. Utilizing high frequency channels similar to DSRC would allow for rapid bursts of data, while using hardware encryption would provide ciphertext at the rate of between 20-100ns for a 128-bit block (using a Tiny-AES-256 core on a Xilinx Zync FPGA running at 50MHz). The largest bottleneck in the system stemmed from the CAN bus.
+Software encryption was shown to be extremely slow, taking upwards of 8.9 seconds to scramble data using a simple cipher. In addition during wireless transmission, using an ad-hoc network(typically used for long term secure channels) took several seconds on average to connect. This would not be a feasible communication method at high speeds. Utilizing high frequency channels similar to DSRC would allow for rapid bursts of data, while using hardware encryption would provide a throughput of between 20-100ns per 128-bit block (using a Tiny-AES-256 core on a Xilinx Zync FPGA running at 50MHz). The largest bottleneck in the system stemmed from the CAN bus.
 %Latency in the system was measured by sending commands via the transceivers, forwarding the packet via USB-UART to an embedded node which would run a PID loop, forwarding data through a separate UART module to the FPGA. The FPGA would in turn construct a CAN frame around the incoming data after performing an ID-table lookup to confirm a valid message and transmits the data. The correct listening node can then interpret the command and interface with the peripherals on the testbed via a PWM signal. Encryption/Decryption blocks were configured as a feedback loop, taking in plaintext data via a separate dedicated UART line and piping the scrambled data back up through to the central controller.
-
+The simulator provides us an outlet to test communication networks in a distributed mesh network and demonstrated the benefits of increased reaction time through driver braking assistance. We implemented an abstraction layer and added a source ID field along with the concept of permission rings to our CAN bus to prevent a compromised node from gaining access to sensitive systems, utilizing the above encryption scheme in the case of a high danger node (the outwards facing wireless transceiver) needing to be able to talk directly to high security systems. However, while we were able to encrypt  data at high speeds, we were unable to develop a large scale, distributed authentication scheme that could operate in the micro-milli second range. High speed car tests have been stalled due to antenna issues at the time of this poster.	
 
 %----------------------------------------------------------------------------------------
 %	CONCLUSIONS
