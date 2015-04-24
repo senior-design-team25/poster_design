@@ -143,7 +143,7 @@ We will focus on modular specific system testing and timing constraints collecte
 \includegraphics[scale=0.5]{fpga_synth1}
 %\includegraphics[scale=0.4]{fpga_synth_canexpand}
 %\hspace{1em}\includegraphics[scale=0.5]{FPGA_Sim1}
-\hspace{5em}\includegraphics[scale=1.1]{design_flow}
+\includegraphics[scale=1.1]{design_flow}
 \end{vwcol}
 
 %\centerline{\includegraphics[width=0.6\linewidth]{design_flow}}
@@ -152,7 +152,7 @@ We will focus on modular specific system testing and timing constraints collecte
 %\bf{Figure 1. } FPGA Layout
 \vspace{1em}
 \centerline{\includegraphics[width=0.9\linewidth]{FPGA_Sim1}}
-%\vspace{-1em}
+\vspace{2em}
 
 \includegraphics[width=0.9\linewidth]{UART-CAN_PacketTranslation}
 \\
@@ -168,7 +168,7 @@ We will focus on modular specific system testing and timing constraints collecte
 %----------------------------------------------------------------------------------------
 
 \section*{Results}
-Software encryption was shown to be extremely slow, taking upwards of 8.9 seconds to scramble data using a simple cipher. In addition during wireless transmission, using an ad-hoc (typically used for long term secure channels) took several seconds on average to connect. This would not be a feasible communication method at high speeds. Utilizing high frequency channels similar to DSRC would allow for rapid bursts of data, while using hardware encryption would provide ciphertext at the rate of between 20-100ns for a 128-bit block (using a tiny AES-256 core on a Xilinx Zync FPGA running at 50MHz).
+Software encryption was shown to be extremely slow, taking upwards of 8.9 seconds to scramble data using a simple cipher. In addition during wireless transmission, using an ad-hoc (typically used for long term secure channels) took several seconds on average to connect. This would not be a feasible communication method at high speeds. Utilizing high frequency channels similar to DSRC would allow for rapid bursts of data, while using hardware encryption would provide ciphertext at the rate of between 20-100ns for a 128-bit block (using a Tiny-AES-256 core on a Xilinx Zync FPGA running at 50MHz). The largest bottleneck in the system stemmed from the CAN bus.
 %Latency in the system was measured by sending commands via the transceivers, forwarding the packet via USB-UART to an embedded node which would run a PID loop, forwarding data through a separate UART module to the FPGA. The FPGA would in turn construct a CAN frame around the incoming data after performing an ID-table lookup to confirm a valid message and transmits the data. The correct listening node can then interpret the command and interface with the peripherals on the testbed via a PWM signal. Encryption/Decryption blocks were configured as a feedback loop, taking in plaintext data via a separate dedicated UART line and piping the scrambled data back up through to the central controller.
 
 
@@ -179,7 +179,7 @@ Software encryption was shown to be extremely slow, taking upwards of 8.9 second
 \color{SaddleBrown} % SaddleBrown color for the conclusions to make them stand out
 
 \section*{Conclusions}
-Vivamus molestie, risus tempor vehicula mattis, libero arcu volutpat purus, sed blandit sem nibh eget turpis. Maecenas rutrum dui blandit lorem vulputate gravida. Praesent venenatis mi vel lorem tempor at varius diam sagittis. Nam eu leo id turpis interdum luctus a sed augue. Nam tellus.
+The topic of security in interconnected vehicles is a rapidly growing and vitally important field. This project barely scratched the surface, looking primarily at the feasibility of incorporating advanced level security concepts into a high speed cyber-physical system. Our work here has set up the ground work for deeper exploration into the complex problems of authentication across millions of users in the realm of microseconds, hardened bus protocols, and the benefits connected vehicles provide in terms of driver safety.
 
 
 %----------------------------------------------------------------------------------------
@@ -187,8 +187,7 @@ Vivamus molestie, risus tempor vehicula mattis, libero arcu volutpat purus, sed 
 %----------------------------------------------------------------------------------------
 
 \section*{Acknowledgements}
-
-Dr. Tiwari, TI, UT Austin, swiggity swaggity swoop
+Dr. Tiwari, TI, UT Austin
 
 %----------------------------------------------------------------------------------------
 
