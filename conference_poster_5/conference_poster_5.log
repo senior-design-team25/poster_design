@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.25)  23 APR 2015 21:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.25)  24 APR 2015 03:15
 entering extended mode
 **conference_poster_5.tex
 
@@ -337,102 +337,107 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 \WF@everypar=\toks28
 Package: wrapfig 2003/01/31  v 3.6
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box58
+\beforetitleunit=\skip73
+\aftertitleunit=\skip74
+\ttl@plus=\dimen147
+\ttl@minus=\dimen148
+\ttl@toksa=\toks29
+\titlewidth=\dimen149
+\titlewidthlast=\dimen150
+\titlewidthfirst=\dimen151
+)
 (C:\Users\splee_000\Documents\senior_design\poster_design\conference_poster_5\c
 onference_poster_5.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 44.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 40.
+LaTeX Info: Redefining \selectfont on input line 44.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count126
-\scratchdimen=\dimen147
-\scratchbox=\box58
+\scratchdimen=\dimen152
+\scratchbox=\box59
 \nofMPsegments=\count127
 \nofMParguments=\count128
-\everyMPshowfont=\toks29
+\everyMPshowfont=\toks30
 \MPscratchCnt=\count129
-\MPscratchDim=\dimen148
+\MPscratchDim=\dimen153
 \MPnumerator=\count130
 \makeMPintoPDFobject=\count131
-\everyMPtoPDFconversion=\toks30
+\everyMPtoPDFconversion=\toks31
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <74.3> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <51.6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--56
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
 
  []
 
 <figures/ti_logo.jpg, id=1, 762.85pt x 633.36626pt>
 File: figures/ti_logo.jpg Graphic file (type jpg)
  <use figures/ti_logo.jpg>
-Package pdftex.def Info: figures/ti_logo.jpg used on input line 69.
+Package pdftex.def Info: figures/ti_logo.jpg used on input line 73.
 (pdftex.def)             Requested size: 227.62204pt x 188.98692pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <35.83> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
 
 <figures/mohit.jpg, id=2, 170.6375pt x 170.6375pt>
 File: figures/mohit.jpg Graphic file (type jpg)
  <use figures/mohit.jpg>
-Package pdftex.def Info: figures/mohit.jpg used on input line 90.
-(pdftex.def)             Requested size: 8.53236pt x 8.53236pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <35.83> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 114.
+Package pdftex.def Info: figures/mohit.jpg used on input line 94.
+(pdftex.def)             Requested size: 0.17184pt x 0.17184pt.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 117.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <24.88> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 114.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <29.86> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 117.
 
 <figures/fpga_synth1.png, id=3, 706.89093pt x 744.53156pt>
 File: figures/fpga_synth1.png Graphic file (type png)
 
 <use figures/fpga_synth1.png>
-Package pdftex.def Info: figures/fpga_synth1.png used on input line 142.
+Package pdftex.def Info: figures/fpga_synth1.png used on input line 147.
 (pdftex.def)             Requested size: 353.4446pt x 372.26486pt.
 
-<figures/fpga_synth_canexpand.png, id=5, 1410.0178pt x 706.13812pt>
-File: figures/fpga_synth_canexpand.png Graphic file (type png)
+<figures/design_flow.png, id=5, 379.4175pt x 479.24043pt>
+File: figures/design_flow.png Graphic file (type png)
 
-<use figures/fpga_synth_canexpand.png>
-Package pdftex.def Info: figures/fpga_synth_canexpand.png used on input line 14
-2.
-(pdftex.def)             Requested size: 563.99713pt x 282.45024pt.
+<use figures/design_flow.png>
+Package pdftex.def Info: figures/design_flow.png used on input line 147.
+(pdftex.def)             Requested size: 417.36053pt x 527.1661pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 147.
 
-Overfull \hbox (86.58449pt too wide) in paragraph at lines 142--142
-[]  
- []
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 142.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 142.
+LaTeX Font Info:    Try loading font information for U+msb on input line 147.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -440,24 +445,23 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: figures/fpga_synth1.png Graphic file (type png)
 
 <use figures/fpga_synth1.png>
-Package pdftex.def Info: figures/fpga_synth1.png used on input line 142.
+Package pdftex.def Info: figures/fpga_synth1.png used on input line 147.
 (pdftex.def)             Requested size: 353.4446pt x 372.26486pt.
-File: figures/fpga_synth_canexpand.png Graphic file (type png)
- <use figures/fpga_synth_canexpand.png>
-Package pdftex.def Info: figures/fpga_synth_canexpand.png used on input line 14
-2.
-(pdftex.def)             Requested size: 563.99713pt x 282.45024pt.
+File: figures/design_flow.png Graphic file (type png)
+ <use figures/design_flow.png>
+Package pdftex.def Info: figures/design_flow.png used on input line 147.
+(pdftex.def)             Requested size: 417.36053pt x 527.1661pt.
 
-Overfull \hbox (182.07285pt too wide) in paragraph at lines 142--142
+Overfull \hbox (35.43625pt too wide) in paragraph at lines 147--147
 []  
  []
 
 
-Overfull \vbox (51.26495pt too high) detected at line 142
+Overfull \vbox (77.43541pt too high) detected at line 147
  []
 
 
-Underfull \hbox (badness 10000) detected at line 142
+Underfull \hbox (badness 10000) detected at line 147
 [] | []
  []
 
@@ -465,82 +469,47 @@ Underfull \hbox (badness 10000) detected at line 142
 File: figures/fpga_layout.png Graphic file (type png)
 
 <use figures/fpga_layout.png>
-Package pdftex.def Info: figures/fpga_layout.png used on input line 144.
+Package pdftex.def Info: figures/fpga_layout.png used on input line 151.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--149
-[]\OT1/ptm/m/n/24.88 dsfkdfjkdfd;fjdskfdsfhsadghadslhfsdlxkfjmdsfjldsflhsdnxfsd
-nfds;fhdsfdshafdhf fjkad-hfjd-
- []
+<figures/FPGA_Sim1.png, id=7, 1206.75844pt x 525.46312pt>
+File: figures/FPGA_Sim1.png Graphic file (type png)
 
-<figures/UART-CAN_PacketTranslation.png, id=7, 1443.89438pt x 771.63281pt>
+<use figures/FPGA_Sim1.png>
+Package pdftex.def Info: figures/FPGA_Sim1.png used on input line 154.
+(pdftex.def)             Requested size: 874.86278pt x 380.93898pt.
+
+<figures/UART-CAN_PacketTranslation.png, id=8, 1443.89438pt x 771.63281pt>
 File: figures/UART-CAN_PacketTranslation.png Graphic file (type png)
 
 <use figures/UART-CAN_PacketTranslation.png>
 Package pdftex.def Info: figures/UART-CAN_PacketTranslation.png used on input l
-ine 150.
+ine 157.
 (pdftex.def)             Requested size: 874.86278pt x 467.53986pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 153.
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--154
+Underfull \hbox (badness 10000) in paragraph at lines 157--160
 
  []
 
-<figures/rand_plot.png, id=8, 578.16pt x 431.4519pt>
-File: figures/rand_plot.png Graphic file (type png)
+<figures/imu_plot2.jpg, id=9, 818.05624pt x 617.30624pt>
+File: figures/imu_plot2.jpg Graphic file (type jpg)
 
-<use figures/rand_plot.png>
-Package pdftex.def Info: figures/rand_plot.png used on input line 155.
-(pdftex.def)             Requested size: 578.15858pt x 431.45085pt.
+<use figures/imu_plot2.jpg>
+Package pdftex.def Info: figures/imu_plot2.jpg used on input line 161.
+(pdftex.def)             Requested size: 572.63547pt x 432.11142pt.
 
-<figures/car_sim.png, id=9, 1443.14156pt x 724.20563pt>
+<figures/car_sim.png, id=10, 1443.14156pt x 724.20563pt>
 File: figures/car_sim.png Graphic file (type png)
 
 <use figures/car_sim.png>
-Package pdftex.def Info: figures/car_sim.png used on input line 157.
+Package pdftex.def Info: figures/car_sim.png used on input line 164.
 (pdftex.def)             Requested size: 972.07635pt x 487.81212pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 157--158
+Overfull \hbox (36.135pt too wide) in paragraph at lines 164--165
 [][] 
  []
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 165.
-
-Overfull \hbox (60.5984pt too wide) in paragraph at lines 168--177
-[][] 
- []
-
-
-Underfull \hbox (badness 7740) in paragraph at lines 165--178
-\OT1/ptm/b/n/24.88 Donec fau-cibus pu-rus at tor-tor eges-tas eu fer-men-tum do
--lor fa-cil-i-sis. Mae-
- []
-
-
-Underfull \hbox (badness 6032) in paragraph at lines 165--178
-\OT1/ptm/b/n/24.88 ce-nas tem-por dui eu neque fringilla rutrum. Mau-ris \OT1/p
-tm/b/it/24.88 lobor-tis \OT1/ptm/b/n/24.88 nisl ac-cum-san.
- []
-
-
-Underfull \hbox (badness 5431) in paragraph at lines 165--178
-\OT1/ptm/b/n/24.88 Ae-nean vi-tae risus ante. Pel-len-tesque condi-men-tum dui.
- Etiam sagit-tis pu-
- []
-
-<figures/placeholder.jpg, id=10, 351.3125pt x 193.72375pt>
-File: figures/placeholder.jpg Graphic file (type jpg)
-
-<use figures/placeholder.jpg>
-Package pdftex.def Info: figures/placeholder.jpg used on input line 185.
-(pdftex.def)             Requested size: 777.66405pt x 428.90123pt.
-File: figures/placeholder.jpg Graphic file (type jpg)
- <use figures/placeholder.jpg>
-Package pdftex.def Info: figures/placeholder.jpg used on input line 209.
-(pdftex.def)             Requested size: 777.66405pt x 428.90123pt.
- [1
+[1
 
 
 Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C
@@ -548,96 +517,31 @@ Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C
 ures/ti_logo.jpg> <C:/Users/splee_000/Documents/senior_design/poster_design/con
 ference_poster_5/figures/mohit.jpg> <C:/Users/splee_000/Documents/senior_design
 /poster_design/conference_poster_5/figures/fpga_synth1.png> <C:/Users/splee_000
-/Documents/senior_design/poster_design/conference_poster_5/figures/fpga_synth_c
-anexpand.png> <C:/Users/splee_000/Documents/senior_design/poster_design/confere
-nce_poster_5/figures/fpga_layout.png> <C:/Users/splee_000/Documents/senior_desi
-gn/poster_design/conference_poster_5/figures/UART-CAN_PacketTranslation.png> <C
-:/Users/splee_000/Documents/senior_design/poster_design/conference_poster_5/fig
-ures/rand_plot.png> <C:/Users/splee_000/Documents/senior_design/poster_design/c
-onference_poster_5/figures/car_sim.png> <C:/Users/splee_000/Documents/senior_de
-sign/poster_design/conference_poster_5/figures/placeholder.jpg>]
-Overfull \vbox (110.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (109.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (108.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (107.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (106.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (105.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (104.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (103.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (102.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (101.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (100.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (99.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (98.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (97.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (96.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (95.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (94.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (93.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (92.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (91.60121pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (90.60121pt too high) has occurred while \output is active []
-
-
-[2]
+/Documents/senior_design/poster_design/conference_poster_5/figures/design_flow.
+png> <C:/Users/splee_000/Documents/senior_design/poster_design/conference_poste
+r_5/figures/fpga_layout.png> <C:/Users/splee_000/Documents/senior_design/poster
+_design/conference_poster_5/figures/FPGA_Sim1.png> <C:/Users/splee_000/Document
+s/senior_design/poster_design/conference_poster_5/figures/UART-CAN_PacketTransl
+ation.png> <C:/Users/splee_000/Documents/senior_design/poster_design/conference
+_poster_5/figures/imu_plot2.jpg> <C:/Users/splee_000/Documents/senior_design/po
+ster_design/conference_poster_5/figures/car_sim.png>]
 (C:\Users\splee_000\Documents\senior_design\poster_design\conference_poster_5\c
 onference_poster_5.aux) ) 
 Here is how much of TeX's memory you used:
- 4419 strings out of 493921
- 66923 string characters out of 3144864
- 137070 words of memory out of 3000000
- 7638 multiletter control sequences out of 15000+200000
- 25390 words of font info for 54 fonts, out of 3000000 for 9000
+ 4659 strings out of 493921
+ 69872 string characters out of 3144864
+ 151712 words of memory out of 3000000
+ 7879 multiletter control sequences out of 15000+200000
+ 19223 words of font info for 47 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,9n,38p,772b,444s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,9n,38p,772b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fon
 tname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on conference_poster_5.pdf (2 pages, 365203 bytes).
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
+Output written on conference_poster_5.pdf (1 page, 376959 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 33 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
