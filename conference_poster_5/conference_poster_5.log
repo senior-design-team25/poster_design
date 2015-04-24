@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.25)  23 APR 2015 20:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.25)  23 APR 2015 21:39
 entering extended mode
 **conference_poster_5.tex
 
@@ -98,6 +98,68 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \colbreak@box=\box51
 \multicol@sort@counter=\count99
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\vwcol\vwcol.sty"
+Package: vwcol 2008/06/24 v0.1 Variable-width multicolumn text
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count100
+\calc@Bcount=\count101
+\calc@Adimen=\dimen112
+\calc@Bdimen=\dimen113
+\calc@Askip=\skip45
+\calc@Bskip=\skip46
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count102
+\calc@Cskip=\skip47
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\environ\environ.sty"
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\trimspaces\trimspaces.sty"
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everysel.sty"
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip48
+\RaggedLeftLeftskip=\skip49
+\RaggedRightLeftskip=\skip50
+\CenteringRightskip=\skip51
+\RaggedLeftRightskip=\skip52
+\RaggedRightRightskip=\skip53
+\CenteringParfillskip=\skip54
+\RaggedLeftParfillskip=\skip55
+\RaggedRightParfillskip=\skip56
+\JustifyingParfillskip=\skip57
+\CenteringParindent=\skip58
+\RaggedLeftParindent=\skip59
+\RaggedRightParindent=\skip60
+\JustifyingParindent=\skip61
+)
+\vwcol@sep=\skip62
+\vwcol@rule=\skip63
+\vwcol@totalwidth=\skip64
+\vwcol@averagewidth=\skip65
+\vwcol@parindent=\skip66
+\vwcol@last=\count103
+\vwcol@Ncols=\count104
+\vwcol@Nlines=\count105
+\vwcol@maxrecursion=\count106
+\vwcol@box=\box52
+\vwcol@plainbox=\box53
+\vwcol@outputbox=\box54
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
@@ -115,7 +177,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count100
+\Gread@gobject=\count107
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
@@ -136,10 +198,6 @@ Package: times 2005/04/12 PSNFSS-v9.2a (SPQR)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks14
-)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
@@ -151,28 +209,28 @@ File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-\Gin@req@height=\dimen112
-\Gin@req@width=\dimen113
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen114
-\lightrulewidth=\dimen115
-\cmidrulewidth=\dimen116
-\belowrulesep=\dimen117
-\belowbottomsep=\dimen118
-\aboverulesep=\dimen119
-\abovetopsep=\dimen120
-\cmidrulesep=\dimen121
-\cmidrulekern=\dimen122
-\defaultaddspace=\dimen123
-\@cmidla=\count101
-\@cmidlb=\count102
-\@aboverulesep=\dimen124
-\@belowrulesep=\dimen125
-\@thisruleclass=\count103
-\@lastruleclass=\count104
-\@thisrulewidth=\dimen126
+\heavyrulewidth=\dimen116
+\lightrulewidth=\dimen117
+\cmidrulewidth=\dimen118
+\belowrulesep=\dimen119
+\belowbottomsep=\dimen120
+\aboverulesep=\dimen121
+\abovetopsep=\dimen122
+\cmidrulesep=\dimen123
+\cmidrulekern=\dimen124
+\defaultaddspace=\dimen125
+\@cmidla=\count108
+\@cmidlb=\count109
+\@aboverulesep=\dimen126
+\@belowrulesep=\dimen127
+\@thisruleclass=\count110
+\@lastruleclass=\count111
+\@thisrulewidth=\dimen128
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
@@ -180,19 +238,19 @@ Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen127
-\captionmargin@=\dimen128
-\captionwidth=\dimen129
-\caption@tempdima=\dimen130
-\caption@indent=\dimen131
-\caption@parindent=\dimen132
-\caption@hangindent=\dimen133
+\captionmargin=\dimen129
+\captionmargin@=\dimen130
+\captionwidth=\dimen131
+\caption@tempdima=\dimen132
+\caption@indent=\dimen133
+\caption@parindent=\dimen134
+\caption@hangindent=\dimen135
 )
-\c@ContinuedFloat=\count105
+\c@ContinuedFloat=\count112
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks15
+\@emptytoks=\toks16
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -200,7 +258,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip45
+\@mathmargin=\skip67
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
@@ -208,267 +266,378 @@ Package: amstext 2000/06/29 v2.01
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks16
-\ex@=\dimen134
+\@emptytoks=\toks17
+\ex@=\dimen136
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen135
+\pmbraise@=\dimen137
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count106
+\inf@bad=\count113
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count107
-\leftroot@=\count108
+\uproot@=\count114
+\leftroot@=\count115
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count109
-\DOTSCASE@=\count110
+\classnum@=\count116
+\DOTSCASE@=\count117
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
-\big@size=\dimen136
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+\big@size=\dimen138
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count111
-\c@MaxMatrixCols=\count112
+\macc@depth=\count118
+\c@MaxMatrixCols=\count119
 \dotsspace@=\muskip10
-\c@parentequation=\count113
-\dspbrk@lvl=\count114
-\tag@help=\toks17
-\row@=\count115
-\column@=\count116
-\maxfields@=\count117
-\andhelp@=\toks18
-\eqnshift@=\dimen137
-\alignsep@=\dimen138
-\tagshift@=\dimen139
-\tagwidth@=\dimen140
-\totwidth@=\dimen141
-\lineht@=\dimen142
-\@envbody=\toks19
-\multlinegap=\skip46
-\multlinetaggap=\skip47
-\mathdisplay@stack=\toks20
+\c@parentequation=\count120
+\dspbrk@lvl=\count121
+\tag@help=\toks18
+\row@=\count122
+\column@=\count123
+\maxfields@=\count124
+\andhelp@=\toks19
+\eqnshift@=\dimen139
+\alignsep@=\dimen140
+\tagshift@=\dimen141
+\tagwidth@=\dimen142
+\totwidth@=\dimen143
+\lineht@=\dimen144
+\@envbody=\toks20
+\multlinegap=\skip68
+\multlinetaggap=\skip69
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2004/08/06 v2.20
-\thm@style=\toks21
-\thm@bodyfont=\toks22
-\thm@headfont=\toks23
-\thm@notefont=\toks24
-\thm@headpunct=\toks25
-\thm@preskip=\skip48
-\thm@postskip=\skip49
-\thm@headsep=\skip50
-\dth@everypar=\toks26
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
+\thm@preskip=\skip70
+\thm@postskip=\skip71
+\thm@headsep=\skip72
+\dth@everypar=\toks27
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
-\wrapoverhang=\dimen143
-\WF@size=\dimen144
-\c@WF@wrappedlines=\count118
-\WF@box=\box54
-\WF@everypar=\toks27
+\wrapoverhang=\dimen145
+\WF@size=\dimen146
+\c@WF@wrappedlines=\count125
+\WF@box=\box57
+\WF@everypar=\toks28
 Package: wrapfig 2003/01/31  v 3.6
 )
 (C:\Users\splee_000\Documents\senior_design\poster_design\conference_poster_5\c
 onference_poster_5.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 40.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 40.
+
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count119
-\scratchdimen=\dimen145
-\scratchbox=\box55
-\nofMPsegments=\count120
-\nofMParguments=\count121
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count122
-\MPscratchDim=\dimen146
-\MPnumerator=\count123
-\makeMPintoPDFobject=\count124
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count126
+\scratchdimen=\dimen147
+\scratchbox=\box58
+\nofMPsegments=\count127
+\nofMParguments=\count128
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count129
+\MPscratchDim=\dimen148
+\MPnumerator=\count130
+\makeMPintoPDFobject=\count131
+\everyMPtoPDFconversion=\toks30
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <74.3> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <51.6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <51.6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--55
+Underfull \hbox (badness 10000) in paragraph at lines 53--56
 
  []
 
 <figures/ti_logo.jpg, id=1, 762.85pt x 633.36626pt>
 File: figures/ti_logo.jpg Graphic file (type jpg)
  <use figures/ti_logo.jpg>
-Package pdftex.def Info: figures/ti_logo.jpg used on input line 68.
+Package pdftex.def Info: figures/ti_logo.jpg used on input line 69.
 (pdftex.def)             Requested size: 227.62204pt x 188.98692pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
 
 <figures/mohit.jpg, id=2, 170.6375pt x 170.6375pt>
 File: figures/mohit.jpg Graphic file (type jpg)
  <use figures/mohit.jpg>
-Package pdftex.def Info: figures/mohit.jpg used on input line 89.
+Package pdftex.def Info: figures/mohit.jpg used on input line 90.
 (pdftex.def)             Requested size: 8.53236pt x 8.53236pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <35.83> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 112.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 114.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <24.88> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 112.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <29.86> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 132.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 114.
 
-<figures/fpga_layout.png, id=3, 614.295pt x 794.97pt>
-File: figures/fpga_layout.png Graphic file (type png)
+<figures/fpga_synth1.png, id=3, 706.89093pt x 744.53156pt>
+File: figures/fpga_synth1.png Graphic file (type png)
 
-<use figures/fpga_layout.png>
-Package pdftex.def Info: figures/fpga_layout.png used on input line 136.
-(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 138.
+<use figures/fpga_synth1.png>
+Package pdftex.def Info: figures/fpga_synth1.png used on input line 142.
+(pdftex.def)             Requested size: 353.4446pt x 372.26486pt.
 
-<figures/UART-CAN_PacketTranslation.png, id=4, 1443.89438pt x 771.63281pt>
-File: figures/UART-CAN_PacketTranslation.png Graphic file (type png)
+<figures/fpga_synth_canexpand.png, id=5, 1410.0178pt x 706.13812pt>
+File: figures/fpga_synth_canexpand.png Graphic file (type png)
 
-<use figures/UART-CAN_PacketTranslation.png>
-Package pdftex.def Info: figures/UART-CAN_PacketTranslation.png used on input l
-ine 140.
-(pdftex.def)             Requested size: 635.89722pt x 339.8256pt.
+<use figures/fpga_synth_canexpand.png>
+Package pdftex.def Info: figures/fpga_synth_canexpand.png used on input line 14
+2.
+(pdftex.def)             Requested size: 563.99713pt x 282.45024pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--144
-
+Overfull \hbox (86.58449pt too wide) in paragraph at lines 142--142
+[]  
  []
 
-<figures/rand_plot.png, id=5, 578.16pt x 431.4519pt>
-File: figures/rand_plot.png Graphic file (type png)
-
-<use figures/rand_plot.png>
-Package pdftex.def Info: figures/rand_plot.png used on input line 145.
-(pdftex.def)             Requested size: 578.15858pt x 431.45085pt.
-
-<figures/car_sim.png, id=7, 1443.14156pt x 724.20563pt>
-File: figures/car_sim.png Graphic file (type png)
-
-<use figures/car_sim.png>
-Package pdftex.def Info: figures/car_sim.png used on input line 147.
-(pdftex.def)             Requested size: 635.89722pt x 319.10452pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 155.
-LaTeX Font Info:    Try loading font information for U+msa on input line 158.
-
+LaTeX Font Info:    Try loading font information for U+msa on input line 142.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 158.
+LaTeX Font Info:    Try loading font information for U+msb on input line 142.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (60.5984pt too wide) in paragraph at lines 158--167
+File: figures/fpga_synth1.png Graphic file (type png)
+
+<use figures/fpga_synth1.png>
+Package pdftex.def Info: figures/fpga_synth1.png used on input line 142.
+(pdftex.def)             Requested size: 353.4446pt x 372.26486pt.
+File: figures/fpga_synth_canexpand.png Graphic file (type png)
+ <use figures/fpga_synth_canexpand.png>
+Package pdftex.def Info: figures/fpga_synth_canexpand.png used on input line 14
+2.
+(pdftex.def)             Requested size: 563.99713pt x 282.45024pt.
+
+Overfull \hbox (182.07285pt too wide) in paragraph at lines 142--142
+[]  
+ []
+
+
+Overfull \vbox (51.26495pt too high) detected at line 142
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 142
+[] | []
+ []
+
+<figures/fpga_layout.png, id=6, 614.295pt x 794.97pt>
+File: figures/fpga_layout.png Graphic file (type png)
+
+<use figures/fpga_layout.png>
+Package pdftex.def Info: figures/fpga_layout.png used on input line 144.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--149
+[]\OT1/ptm/m/n/24.88 dsfkdfjkdfd;fjdskfdsfhsadghadslhfsdlxkfjmdsfjldsflhsdnxfsd
+nfds;fhdsfdshafdhf fjkad-hfjd-
+ []
+
+<figures/UART-CAN_PacketTranslation.png, id=7, 1443.89438pt x 771.63281pt>
+File: figures/UART-CAN_PacketTranslation.png Graphic file (type png)
+
+<use figures/UART-CAN_PacketTranslation.png>
+Package pdftex.def Info: figures/UART-CAN_PacketTranslation.png used on input l
+ine 150.
+(pdftex.def)             Requested size: 874.86278pt x 467.53986pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 153.
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--154
+
+ []
+
+<figures/rand_plot.png, id=8, 578.16pt x 431.4519pt>
+File: figures/rand_plot.png Graphic file (type png)
+
+<use figures/rand_plot.png>
+Package pdftex.def Info: figures/rand_plot.png used on input line 155.
+(pdftex.def)             Requested size: 578.15858pt x 431.45085pt.
+
+<figures/car_sim.png, id=9, 1443.14156pt x 724.20563pt>
+File: figures/car_sim.png Graphic file (type png)
+
+<use figures/car_sim.png>
+Package pdftex.def Info: figures/car_sim.png used on input line 157.
+(pdftex.def)             Requested size: 972.07635pt x 487.81212pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 157--158
+[][] 
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24.88> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 165.
+
+Overfull \hbox (60.5984pt too wide) in paragraph at lines 168--177
 [][] 
  []
 
 
-Underfull \hbox (badness 6510) in paragraph at lines 168--171
-\OT1/ptm/b/n/24.88 rutrum laoreet sem-per.
+Underfull \hbox (badness 7740) in paragraph at lines 165--178
+\OT1/ptm/b/n/24.88 Donec fau-cibus pu-rus at tor-tor eges-tas eu fer-men-tum do
+-lor fa-cil-i-sis. Mae-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
-\OT1/ptm/b/n/24.88 Morbi ac-cum-san enim
+Underfull \hbox (badness 6032) in paragraph at lines 165--178
+\OT1/ptm/b/n/24.88 ce-nas tem-por dui eu neque fringilla rutrum. Mau-ris \OT1/p
+tm/b/it/24.88 lobor-tis \OT1/ptm/b/n/24.88 nisl ac-cum-san.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
-\OT1/ptm/b/n/24.88 nec tor-tor con-secte-tur
+Underfull \hbox (badness 5431) in paragraph at lines 165--178
+\OT1/ptm/b/n/24.88 Ae-nean vi-tae risus ante. Pel-len-tesque condi-men-tum dui.
+ Etiam sagit-tis pu-
  []
 
-<figures/placeholder.jpg, id=8, 351.3125pt x 193.72375pt>
+<figures/placeholder.jpg, id=10, 351.3125pt x 193.72375pt>
 File: figures/placeholder.jpg Graphic file (type jpg)
 
 <use figures/placeholder.jpg>
-Package pdftex.def Info: figures/placeholder.jpg used on input line 175.
-(pdftex.def)             Requested size: 565.24796pt x 311.74677pt.
+Package pdftex.def Info: figures/placeholder.jpg used on input line 185.
+(pdftex.def)             Requested size: 777.66405pt x 428.90123pt.
 File: figures/placeholder.jpg Graphic file (type jpg)
  <use figures/placeholder.jpg>
-Package pdftex.def Info: figures/placeholder.jpg used on input line 199.
-(pdftex.def)             Requested size: 565.24796pt x 311.74677pt.
-
-
-LaTeX Font Warning: Font shape `OMS/ptm/bx/n' undefined
-(Font)              using `OMS/ptm/m/n' instead
-(Font)              for symbol `textbullet' on input line 212.
-
-LaTeX Font Info:    Font shape `OMS/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 213.
-[1
+Package pdftex.def Info: figures/placeholder.jpg used on input line 209.
+(pdftex.def)             Requested size: 777.66405pt x 428.90123pt.
+ [1
 
 
 Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C
 :/Users/splee_000/Documents/senior_design/poster_design/conference_poster_5/fig
 ures/ti_logo.jpg> <C:/Users/splee_000/Documents/senior_design/poster_design/con
 ference_poster_5/figures/mohit.jpg> <C:/Users/splee_000/Documents/senior_design
-/poster_design/conference_poster_5/figures/fpga_layout.png> <C:/Users/splee_000
-/Documents/senior_design/poster_design/conference_poster_5/figures/UART-CAN_Pac
-ketTranslation.png> <C:/Users/splee_000/Documents/senior_design/poster_design/c
-onference_poster_5/figures/rand_plot.png> <C:/Users/splee_000/Documents/senior_
-design/poster_design/conference_poster_5/figures/car_sim.png> <C:/Users/splee_0
-00/Documents/senior_design/poster_design/conference_poster_5/figures/placeholde
-r.jpg>]
+/poster_design/conference_poster_5/figures/fpga_synth1.png> <C:/Users/splee_000
+/Documents/senior_design/poster_design/conference_poster_5/figures/fpga_synth_c
+anexpand.png> <C:/Users/splee_000/Documents/senior_design/poster_design/confere
+nce_poster_5/figures/fpga_layout.png> <C:/Users/splee_000/Documents/senior_desi
+gn/poster_design/conference_poster_5/figures/UART-CAN_PacketTranslation.png> <C
+:/Users/splee_000/Documents/senior_design/poster_design/conference_poster_5/fig
+ures/rand_plot.png> <C:/Users/splee_000/Documents/senior_design/poster_design/c
+onference_poster_5/figures/car_sim.png> <C:/Users/splee_000/Documents/senior_de
+sign/poster_design/conference_poster_5/figures/placeholder.jpg>]
+Overfull \vbox (110.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (109.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (108.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (107.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (106.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (105.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (104.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (103.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (102.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (101.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (100.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (99.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (98.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (97.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (96.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (95.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (94.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (93.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (92.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (91.60121pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (90.60121pt too high) has occurred while \output is active []
+
+
+[2]
 (C:\Users\splee_000\Documents\senior_design\poster_design\conference_poster_5\c
-onference_poster_5.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+onference_poster_5.aux) ) 
 Here is how much of TeX's memory you used:
- 4141 strings out of 493921
- 61837 string characters out of 3144864
- 153173 words of memory out of 3000000
- 7383 multiletter control sequences out of 15000+200000
- 27016 words of font info for 56 fonts, out of 3000000 for 9000
+ 4419 strings out of 493921
+ 66923 string characters out of 3144864
+ 137070 words of memory out of 3000000
+ 7638 multiletter control sequences out of 15000+200000
+ 25390 words of font info for 54 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,8n,38p,772b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on conference_poster_5.pdf (1 page, 284907 bytes).
+ 36i,9n,38p,772b,444s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fon
+tname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
+Output written on conference_poster_5.pdf (2 pages, 365203 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

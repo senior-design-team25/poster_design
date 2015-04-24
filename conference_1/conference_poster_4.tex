@@ -1,0 +1,292 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% baposter Landscape Poster
+% LaTeX Template
+% Version 1.0 (11/06/13)
+%
+% baposter Class Created by:
+% Brian Amberg (baposter@brian-amberg.de)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[landscape,a0paper,fontscale=0.285]{baposter} % Adjust the font scale/size here
+
+\usepackage{graphicx} % Required for including images
+\graphicspath{{figures/}} % Directory in which figures are stored
+
+\usepackage{amsmath} % For typesetting math
+\usepackage{amssymb} % Adds new symbols to be used in math mode
+
+\usepackage{booktabs} % Top and bottom rules for tables
+\usepackage{enumitem} % Used to reduce itemize/enumerate spacing
+\usepackage{palatino} % Use the Palatino font
+\usepackage[font=small,labelfont=bf]{caption} % Required for specifying captions to tables and figures
+
+\usepackage{multicol} % Required for multiple columns
+\setlength{\columnsep}{1.5em} % Slightly increase the space between columns
+\setlength{\columnseprule}{0mm} % No horizontal rule between columns
+
+\usepackage{tikz} % Required for flow chart
+\usetikzlibrary{shapes,arrows} % Tikz libraries required for the flow chart in the template
+
+\newcommand{\compresslist}{ % Define a command to reduce spacing within itemize/enumerate environments, this is used right after \begin{itemize} or \begin{enumerate}
+\setlength{\itemsep}{1pt}
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+}
+
+\definecolor{lightblue}{rgb}{0.145,0.6666,1} % Defines the color used for content box headers
+
+\begin{document}
+
+\begin{poster}
+{
+headerborder=closed, % Adds a border around the header of content boxes
+colspacing=1em, % Column spacing
+bgColorOne=white, % Background color for the gradient on the left side of the poster
+bgColorTwo=white, % Background color for the gradient on the right side of the poster
+borderColor=lightblue, % Border color
+headerColorOne=black, % Background color for the header in the content boxes (left side)
+headerColorTwo=lightblue, % Background color for the header in the content boxes (right side)
+headerFontColor=white, % Text color for the header text in the content boxes
+boxColorOne=white, % Background color of the content boxes
+textborder=roundedleft, % Format of the border around content boxes, can be: none, bars, coils, triangles, rectangle, rounded, roundedsmall, roundedright or faded
+eyecatcher=true, % Set to false for ignoring the left logo in the title and move the title left
+headerheight=0.1\textheight, % Height of the header
+headershape=roundedright, % Specify the rounded corner in the content box headers, can be: rectangle, small-rounded, roundedright, roundedleft or rounded
+headerfont=\Large\bf\textsc, % Large, bold and sans serif font in the headers of content boxes
+%textfont={\setlength{\parindent}{1.5em}}, % Uncomment for paragraph indentation
+linewidth=2pt % Width of the border lines around content boxes
+}
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION 
+%----------------------------------------------------------------------------------------
+%
+{\includegraphics[height=4em]{mohit}} % First university/lab logo on the left
+{\bf\textsc{Autonomous and Augmented Vehicle Security}\vspace{0.5em}} % Poster title
+{\textsc{\normalsize{ Kevin Gilbert, Christopher Haster, Gilberto Rodriguez III, Hao Chen, Young Chou, Joshua Bryant\\ } \hspace{12pt} University of Texas at Austin Cockrell School of Engineering}} % Author names and institution
+{\includegraphics[height=4em]{ti_logo}} % Second university/lab logo on the right
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVES
+%----------------------------------------------------------------------------------------
+
+\headerbox{Objectives}{name=objectives,column=0,row=0}{
+
+Our research project is focused on highlighting security concerns in augmented and autonomous vehicles. We have developed and built a robotics testbed and simulator on which we can measure and apply real-world data. We primarily focus on the two coupled weak points in augmented automotive cybersecurity: wireless transceiver entry points into an unsecured Controller Area Network (CAN).
+
+
+\vspace{0.3em} % When there are two boxes, some whitespace may need to be added if the one on the right has more content
+}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\headerbox{Introduction}{name=introduction,column=1,row=0,bottomaligned=objectives}{
+
+Aliquam non lacus dolor, \textit{a aliquam quam}. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla in nibh mauris. Donec vel ligula nisi, a lacinia arcu. Sed mi dui, malesuada vel consectetur et, egestas porta nisi. Sed eleifend pharetra dolor, et dapibus est vulputate eu. \textbf{Integer faucibus elementum felis vitae fringilla.} In hac habitasse platea dictumst.
+}
+
+%----------------------------------------------------------------------------------------
+%	Measurements
+%----------------------------------------------------------------------------------------
+\headerbox{Measurements}{name=measurements,column=0,span=2} {
+Fuck this shit
+}
+
+
+%----------------------------------------------------------------------------------------
+%	Modules
+%----------------------------------------------------------------------------------------
+
+\headerbox{Modules}{name=modules,column=1,span=1,row=0}{
+
+%\begin{multicols}{2}
+\vspace{1em}
+%\begin{center}
+%\includegraphics[width=0.8\linewidth]{UART-CAN_PacketTranslation}
+%\captionof{figure}{FPGA Bus Capture}
+%\end{center}
+
+Our primary modules were broken down into: 
+
+\begin{enumerate}\compresslist
+\item FPGA -
+\subitem CAN Bus
+\subitem UART - CAN Packet Translation
+\subitem PWM Generation
+\subitem Hardware Encryption
+\item Wireless Transceivers -
+\subitem Data Transmission
+\subitem Software Encryption
+\item Robotics Testbed -
+\subitem Data Measurement
+\item Embedded -
+\subitem IMU Measurement
+\subitem Motor Control (PID)
+\subitem Laptop to CAN Bus Interface
+\subitem Sensor Interface
+\item Simulator -
+\subitem Network Timing Constraints
+\subitem Large Data Generation
+\end{enumerate}
+
+%\end{multicols}
+
+%------------------------------------------------
+
+%\begin{multicols}{2}
+%\vspace{1em}
+%Each module was designed and tested on an individual basis before being combined into our end %product. The attached images show captured data from our CAN bus, IMU, and simulator.
+
+%\begin{center}
+%\includegraphics[width=0.8\linewidth]{rand_plot}
+%\captionof{figure}{IMU data (random)}
+%\end{center}
+
+%\end{multicols}
+}
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES
+%----------------------------------------------------------------------------------------
+
+\headerbox{References}{name=references,column=0,above=bottom}{
+
+\renewcommand{\section}[2]{\vskip 0.05em} % Get rid of the default "References" section title
+\nocite{*} % Insert publications even if they are not cited in the poster
+\small{ % Reduce the font size in this block
+\bibliographystyle{unsrt}
+\bibliography{sample} % Use sample.bib as the bibliography file
+}}
+
+%----------------------------------------------------------------------------------------
+%	FUTURE RESEARCH
+%----------------------------------------------------------------------------------------
+
+\headerbox{Future Research}{name=futureresearch,column=0,span=2,aligned=references,above=bottom}{ % This block is as tall as the references block
+
+\begin{multicols}{2}
+Integer sed lectus vel mauris euismod suscipit. Praesent a est a est ultricies pellentesque. Donec tincidunt, nunc in feugiat varius, lectus lectus auctor lorem, egestas molestie risus erat ut nibh.
+
+Maecenas viverra ligula a risus blandit vel tincidunt est adipiscing. Suspendisse mollis iaculis sem, in \emph{imperdiet} orci porta vitae. Quisque id dui sed ante sollicitudin sagittis.
+\end{multicols}
+}
+
+%----------------------------------------------------------------------------------------
+%	CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+%\headerbox{Contact Information}{name=contact,column=3,aligned=references,above=bottom}{ % This %block is as tall as the references block
+
+%\begin{description}\compresslist
+%\item[Web] www.university.edu/smithlab
+%\item[Email] john@smith.com
+%\item[Phone] +1 (000) 111 1111
+%\end{description}
+%}
+
+%----------------------------------------------------------------------------------------
+%	CONCLUSION
+%----------------------------------------------------------------------------------------
+
+\headerbox{Conclusion}{name=conclusion,column=2,span=2,row=0,below=modules}{
+
+\begin{multicols}{2}
+
+\tikzstyle{decision} = [diamond, draw, fill=blue!20, text width=4.5em, text badly centered, node distance=2cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, text width=5em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse, fill=red!20, node distance=3cm, minimum height=2em]
+
+\begin{tikzpicture}[node distance = 2cm, auto]
+\node [block] (init) {Initialize Model};
+\node [cloud, left of=init] (Start) {Start};
+\node [cloud, right of=init] (Start2) {Start Two};
+\node [block, below of=init] (init2) {Initialize Two};
+\node [decision, below of=init2] (End) {End};
+\path [line] (init) -- (init2);
+\path [line] (init2) -- (End);
+\path [line, dashed] (Start) -- (init);
+\path [line, dashed] (Start2) -- (init);
+path [line, dashed] (Start2) |- (init2);
+\end{tikzpicture}
+
+%------------------------------------------------
+
+\begin{itemize}\compresslist
+\item Pellentesque eget orci eros. Fusce ultricies, tellus et pellentesque fringilla, ante massa luctus libero, quis tristique purus urna nec nibh. Phasellus fermentum rutrum elementum. Nam quis justo lectus.
+\item Vestibulum sem ante, hendrerit a gravida ac, blandit quis magna.
+\item Donec sem metus, facilisis at condimentum eget, vehicula ut massa. Morbi consequat, diam sed convallis tincidunt, arcu nunc.
+\item Nunc at convallis urna. isus ante. Pellentesque condimentum dui. Etiam sagittis purus non tellus tempor volutpat. Donec et dui non massa tristique adipiscing.
+\end{itemize}
+
+\end{multicols}
+}
+
+%----------------------------------------------------------------------------------------
+%	MATERIALS AND METHODS
+%----------------------------------------------------------------------------------------
+
+\headerbox{Materials \& Methods}{name=method,column=0,below=objectives,bottomaligned=modules}{ % This block's bottom aligns with the bottom of the conclusion block
+
+The following materials were required to complete the research:
+
+
+
+The following equations were used for statistical analysis:
+
+}
+
+%----------------------------------------------------------------------------------------
+%	DATA (RESULTS 2)
+%----------------------------------------------------------------------------------------
+
+\headerbox{Data}{name=results2,column=2, span=2,above=futureresearch}{ % This block's bottom aligns with the bottom of the conclusion block
+
+\begin{multicols}{2}
+Donec faucibus purus at tortor egestas eu fermentum dolor facilisis. Maecenas tempor dui eu neque fringilla rutrum. Mauris \emph{lobortis} nisl accumsan.
+
+\includegraphics[width=0.9\linewidth]{rand_plot}
+
+Donec faucibus purus at tortor egestas eu fermentum dolor facilisis. Maecenas tempor dui eu neque fringilla rutrum. Mauris \emph{lobortis} nisl accumsan.
+
+\includegraphics[width=0.9\linewidth]{UART-CAN_PacketTranslation}
+
+Nulla ut porttitor enim. Suspendisse venenatis dui eget eros gravida tempor. Mauris feugiat elit et augue placerat ultrices. Morbi accumsan enim nec tortor consectetur non commodo.
+
+\includegraphics[width=0.9\linewidth]{car_sim}
+
+Nulla ut porttitor enim. Suspendisse venenatis dui eget eros gravida tempor. Mauris feugiat elit et augue placerat ultrices. Morbi accumsan enim nec tortor consectetur non commodo.
+
+\begin{center}
+\begin{tabular}{l l l}
+\toprule
+\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
+\midrule
+Treatment 1 & 0.0003262 & 0.562 \\
+Treatment 2 & 0.0015681 & 0.910 \\
+Treatment 3 & 0.0009271 & 0.296 \\
+\bottomrule
+\end{tabular}
+\captionof{table}{Table caption}
+\end{center}
+\end{multicols}
+}
+
+%----------------------------------------------------------------------------------------
+
+\end{poster}
+
+\end{document}

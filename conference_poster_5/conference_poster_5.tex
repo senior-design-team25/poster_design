@@ -24,6 +24,7 @@
 \columnsep=90pt % This is the amount of white space between the columns in the poster
 \columnseprule=3pt % This is the thickness of the black line between the columns in the poster
 
+\usepackage{vwcol}  
 \usepackage[svgnames]{xcolor} % Specify colors by their 'svgnames', for a full list of all colors available see here: http://www.latextemplates.com/svgnames-colors
 
 \usepackage{times} % Use the times font
@@ -74,7 +75,7 @@
 
 %----------------------------------------------------------------------------------------
 
-\begin{multicols}{4} % This is how many columns your poster will be broken into, a poster with many figures may benefit from less columns whereas a text-heavy poster benefits from more
+\begin{multicols}{3} % This is how many columns your poster will be broken into, a poster with many figures may benefit from less columns whereas a text-heavy poster benefits from more
 
 %----------------------------------------------------------------------------------------
 %	ABSTRACT
@@ -96,18 +97,19 @@ Our research project is focused on highlighting security concerns in augmented a
 %----------------------------------------------------------------------------------------
 
 \color{DarkSlateGray} % DarkSlateGray color for the rest of the content
-
+%\vspace {-5em}
 \section*{Main Objectives}
 Our main objectives were to design and implement a testbed on which we could launch security exploits and defenses while providing a retrospective of current automotive cybersecurity. We wished to highlight the inherit dangers of an unsecured CAN bus and demonstrate the necessity of high speed, short-term encryption. Our goals were to create a secured CAN-like protocol within a FPGA coupled with hardware encryption on which we could pipe wireless packets through. We would test this device with a set of wireless transceivers at high speeds in moving vehicles and within our robotics testbed. The realworld data we generated could then be used within a simulator in which we could measure safety and implement a variety of network protocols.
 
 %----------------------------------------------------------------------------------------
 %	MATERIALS AND METHODS
 %----------------------------------------------------------------------------------------
-
-\section*{Materials and Methods}
+%\vspace {-3em}
+\section*{Modules}
 
 Our primary modules were broken down into: 
 
+\begin{multicols}{2}
 \begin{itemize}
 \item FPGA -
 \subitem CAN Bus
@@ -127,24 +129,32 @@ Our primary modules were broken down into:
 \item Simulator -
 \subitem Network Timing Constraints
 \end{itemize}
+\end{multicols}
 %------------------------------------------------
 	
-\subsection*{Measurements and Data}
+\section*{Measurements and Data}
 
 We will focus on modular specific system testing and timing constraints collected in this section. The following section will collect this data into a summary of our results.
 
-\includegraphics[scale=0.9]{fpga_layout}
-\\
-\bf{Figure 1. } FPGA Layout
+\begin{vwcol}[widths={0.4,0.6}]
+\includegraphics[scale=0.5]{fpga_synth1}
+\includegraphics[scale=0.4]{fpga_synth_canexpand}
+\end{vwcol}
+
+\centerline{\includegraphics[scale=0.9]{fpga_layout}}
+dsfkdfjkdfd;fjdskfdsfhsadghadslhfsdlxkfjmdsfjldsflhsdnxfsdnfds;fhdsfdshafdhf
+fjkadhfjdksfhdsfhdsfkdshlfdjfhdaskfjhdlfhdsfkdsjfhkdalfhasklfjhsdlkfhsfsjlafhdf
+dsjafhdslafhdsflhdlfsjfhsdlfdjfdhlfdjsfhldafhsjf
+%\bf{Figure 1. } FPGA Layout
 
 \includegraphics[width=0.9\linewidth]{UART-CAN_PacketTranslation}
 \\
 \\
 \bf{Figure 2. } Hardware CAN Bus Capture
 
-\includegraphics{rand_plot}
+\centerline{\includegraphics{rand_plot}}
 
-\includegraphics[width=0.9\linewidth]{car_sim}
+\includegraphics[width=1\linewidth]{car_sim}
 
 
 %	RESULTS 
@@ -207,13 +217,7 @@ Vivamus sed nibh ac metus tristique tristique a vitae ante. Sed lobortis mi ut a
 \color{SaddleBrown} % SaddleBrown color for the conclusions to make them stand out
 
 \section*{Conclusions}
-
-\begin{itemize}
-\item Pellentesque eget orci eros. Fusce ultricies, tellus et pellentesque fringilla, ante massa luctus libero, quis tristique purus urna nec nibh. Phasellus fermentum rutrum elementum. Nam quis justo lectus.
-\item Vestibulum sem ante, hendrerit a gravida ac, blandit quis magna.
-\item Donec sem metus, facilisis at condimentum eget, vehicula ut massa. Morbi consequat, diam sed convallis tincidunt, arcu nunc.
-\item Nunc at convallis urna. isus ante. Pellentesque condimentum dui. Etiam sagittis purus non tellus tempor volutpat. Donec et dui non massa tristique adipiscing.
-\end{itemize}
+Vivamus molestie, risus tempor vehicula mattis, libero arcu volutpat purus, sed blandit sem nibh eget turpis. Maecenas rutrum dui blandit lorem vulputate gravida. Praesent venenatis mi vel lorem tempor at varius diam sagittis. Nam eu leo id turpis interdum luctus a sed augue. Nam tellus.
 
 \color{DarkSlateGray} % Set the color back to DarkSlateGray for the rest of the content
 
